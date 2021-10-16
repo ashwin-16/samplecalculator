@@ -1,0 +1,95 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.52);
+    margin-left: 500px;
+    margin-top: 5%;
+    border-radius: 10px;
+    border:7px solid black;
+}
+#screen{
+    width: 80%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+    border-radius: 10px;
+    border:5px solid black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color:#fff;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.equal{
+    background-color: lawngreen;
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: black;
+    cursor: grab;
+
+}
+.btn1{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color:black;
+    background:bisque;
+    border-radius: 10px;
+    border-color: black;
+   
+    font-weight:600;
+    cursor:grabbing ;
+}
+.btn2{
+    width: 60px;
+    height: 45px;
+    margin-left: 218px;
+    margin-top: 30px;
+    color:black;
+    background:bisque;
+    border-radius: 10px;
+    border-color: black;
+    font-weight: 600;
+    cursor: help;
+}
+
+.input{
+    border-radius: 5px;
+}
+body {
+    background-image: url("");
+    background-color: rebeccapurple;
+    bottom: 30%;
+
+}
+.HAI{
+    margin-left: -10%;
+    margin-top: 0px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    padding-left: 46%;
+   width: 100%;
+   word-spacing: 30px;
+   text:rebeccapurple;
+}
+   
+
+
