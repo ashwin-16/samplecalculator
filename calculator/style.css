@@ -90,6 +90,28 @@ body {
    word-spacing: 30px;
    text:rebeccapurple;
 }
-   
+   @media only screen and (max-width:700px){
+    .calc{
+        width: 400px;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.52);
+        margin-left: 100px;
+        margin-top: 5%;
+        border-radius: 10px;
+        border:7px solid black;
+        
+    }
+    .HAI{
+        margin-left: 30%;
+        margin-top: -8px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fff;
+        padding-left: 4%;
+       width: 100%;
+       word-spacing: 30px;
+       text:rebeccapurple;
+    }
+   }
 
 
