@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR | FIRST PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = 
+"data:image/png;base64,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" 
+        type = "image/x-icon">
+    <script src="script.js"></script>
+  
+    
+</head>
+<body>
+   <h1 class="HAI"> SIMPLE    CALCULATOR</h1>
+    <div  class="main">
+        <div class="calc">
+            <div class="ouput">
+                <input class="input" type="text" id="screen">
+              
+            </div>
+            <div class="buttons">
+                <button onclick="btnclear()" class="btn1">CLR</button>
+                <button onclick="nice()" class="btn2">BACK</button>
+                <div class="row">
+                    <button onclick="btnclick(7)" class="btn">7</button>
+                    <button onclick="btnclick(8)" class="btn">8</button>
+                    <button onclick="btnclick(9)" class="btn">9</button>
+                    <button onclick="btnclick('/')" class="btn">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(4)" class="btn">4</button>
+                    <button onclick="btnclick(5)" class="btn">5</button>
+                    <button onclick="btnclick(6)" class="btn">6</button>
+                    <button onclick="btnclick('*')" class="btn">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(1)" class="btn">1</button>
+                    <button onclick="btnclick(2)" class="btn">2</button>
+                    <button onclick="btnclick(3)" class="btn">3</button>
+                    <button onclick="btnclick('-')" class="btn">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick('.')" class="btn">.</button>
+                    <button onclick="btnclick(0)" class="btn">0</button>
+                    <button onclick="btnclick('+')" class="btn">+</button>
+                    <button onclick="equalclick('=')" class="equal">=</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick('(')" class="btn">(</button>
+                    <button onclick="btnclick(')')" class="btn">)</button>
+                    <button onclick="btnclick('^')" class="btn">^</button>
+                    <button onclick="btnclick('%')" class="btn">%</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
